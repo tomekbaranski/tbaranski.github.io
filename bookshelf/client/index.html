@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <div class="container background">
+        <div class="row logo">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8">Bookshelf</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 welcome">Welcome to Your bookshelf</div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 title">Add new book</div>
+        </div>
+        <div class="row">
+            <form id="createForm">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-8 text-center">
+                    <label>Name <input type="text" id="nameInput"></label>
+                    <label>Description <input type="text" id="descriptionInput"></label>
+                    <label>Author <input type="text" id="authorInput"></label>
+                    <br />
+                    <button class="btn btn-primary btn-margin" type="submit" value="Save">Add</button>
+                </div>
+                <div class="col-lg-2"></div>
+            </form>
+        </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 text-center title">
+                Your books
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2"></div>
+            <div class="col-lg-8 text-center">
+                <div class="loading" id="loading"></div>
+                <div id="books"></div>
+            </div>
+            <div class="col-lg-2"></div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
